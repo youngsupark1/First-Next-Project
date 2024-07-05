@@ -39,7 +39,7 @@ const PokemonList: React.FC = () => {
               key={pokemon.id}
               className="w-[250px] m-10 border-4 mb-2 rounded-[15px] "
             >
-              <Link href={`/pokemons/${pokemon.id}`}>
+              <Link href={`/pokemon/${pokemon.id}`}>
                 <Image
                   src={pokemon.sprites.front_default}
                   alt={pokemon.name}
