@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Application Title",
-  description: "This is the description of my application.",
+  title: "포켓몬 리스트",
+  description: "나만의 포켓몬 리스트입니다.",
 };
 
 export default function RootLayout({
