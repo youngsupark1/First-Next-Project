@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Pokemon } from "../types/pokemon";
 import Link from "next/link";
+import Image from "next/image";
 
 const PokemonList: React.FC = () => {
   const [pokemonList, setPokemonList] = useState<Pokemon[]>([]);
@@ -39,9 +40,11 @@ const PokemonList: React.FC = () => {
               className="w-[250px] m-10 border-4 mb-2 rounded-[15px] "
             >
               <Link href={`/pokemons/${pokemon.id}`}>
-                <img
+                <Image
                   src={pokemon.sprites.front_default}
                   alt={pokemon.name}
+                  width={100}
+                  height={100}
                   className="ml-5"
                 />
                 <h2 className="ml-3">

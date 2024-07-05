@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Pokemon } from "../types/pokemon";
 import Link from "next/link";
+import Image from "next/image";
 
 const PokemonDetail: React.FC = () => {
   const router = useRouter();
@@ -42,7 +43,12 @@ const PokemonDetail: React.FC = () => {
       </Link>
 
       {/* 포켓몬 이미지와 이름 */}
-      <img src={pokemon.sprites.front_default} alt={pokemon.name} />
+      <Image
+        src={pokemon.sprites.front_default}
+        alt={pokemon.name}
+        width={100}
+        height={100}
+      />
       <h1>
         {pokemon.korean_name} ({pokemon.name})
       </h1>
