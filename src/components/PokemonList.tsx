@@ -31,9 +31,6 @@ const PokemonList: React.FC = () => {
 
   return (
     <div className="bg-black text-white">
-      <h1 className="flex justify-center text-center text-[30px] font-bold">
-        Pokemon List
-      </h1>
       <div className="flex justify-center">
         <ul className="grid grid-cols-6 ">
           {pokemonList.map((pokemon) => (
