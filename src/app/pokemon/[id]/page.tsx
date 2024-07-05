@@ -1,6 +1,11 @@
-import { fetchPokemonData } from "@/apis/pokemon";
 import Image from "next/image";
 import Link from "next/link";
+
+const fetchPokemonData = async (id: string) => {
+  const apiUrl = "http://localhost:3000";
+  const response = await fetch(`${apiUrl}/api/pokemons/${id}`);
+  return response.json();
+};
 
 const PokemonDetailPage = async ({ params }: { params: { id: string } }) => {
   const pokemon = await fetchPokemonData(params.id);
