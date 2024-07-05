@@ -3,6 +3,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
+    "noImplicitAny": false, // 암묵적 any를 꺼버림
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
