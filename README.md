@@ -16,11 +16,12 @@
 
 ## 메인 페이지 모습 
 
-![1](https://github.com/youngsupark1/First-Next-Project/assets/160477257/cfeb43f1-1e95-42d3-87db-f2a410eded7b)
+![1](https://github.com/youngsupark1/First-Next-Project/assets/160477257/f534d242-6ece-4d3c-aa48-e5879e4e6e15)
+
 
 ## 포켓몬을 클릭하면 상세페이지로 이동한 모습
-### (tailwindcss로 UI를 고치려고 했으나 무슨 문제인지는 모르겠는데 적용이 되지 않아 나중에 해결)
 
-![2](https://github.com/youngsupark1/First-Next-Project/assets/160477257/e8ac697c-13a6-4d9f-afd8-41f63f9c6fa9)
+![2](https://github.com/youngsupark1/First-Next-Project/assets/160477257/1d5329f4-7841-4306-8ab2-2fb37ba21f42)
+
 
 
